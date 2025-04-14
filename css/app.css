@@ -1,0 +1,76 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "poppins", sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* UTILITIES */
+
+.h-center {
+    text-align: center;
+}
+
+/* FLEX RULES */
+
+.w-33 {
+    width: 33%;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 12px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+
+
+
+/* DEBUG */
+
+.debug .container {
+    border: 2px solid red;
+}
+
+.debug .row {
+    border: 2px solid green;
+    padding: 24px;
+}
+
+.debug .row>* {
+    border: 2px solid blue;
+    padding: 24px;
+}
